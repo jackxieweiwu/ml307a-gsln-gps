@@ -1,15 +1,3 @@
-# The brief
+# 基于中移ML307A_GSLN的gps定位器
 
-Describe the board you want: what it does, the parts it must use, the
-interfaces it exposes, and the constraints that bound the layout.
-
-A hosted `create` run overwrites this file with the brief you typed in the
-console, then works from it.
-
-## What makes a brief usable
-
-- **Parts** by designator where you care, and by function where you do not.
-- **Power**: what comes in, what rails come out, and how much current.
-- **Interfaces**: every connector and bus, and what is on it.
-- **Constraints**: layer count, board outline, assembly method, and anything
-  the board must not do.
+基于中移ML307A_GSLN模组，开发一个GPS定位器。有一个4G天线，一个GPS定位天线。需要一个sim卡槽，需要电源输入，led状态灯，需要RX+TX+GND+VIN。
